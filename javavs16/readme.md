@@ -27,3 +27,10 @@ compile.bat win64
 
 源码文件的 tools 里面有个 tools\run.bat 里面目录是写死的，根据里面的路径，把 2个编译好的文件放到合适的位置，然后执行。
 
+```bash
+# 运行
+run.bat win64 Release detailed
+
+# 打包
+make_distrib.bat win64
+```
