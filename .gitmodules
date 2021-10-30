@@ -1,3 +1,7 @@
 [submodule "javacef"]
 	path = javacef
 	url = git@github.com:chromiumembedded/java-cef.git
+[submodule "jcef49"]
+	path = jcef49
+	url = https://bitbucket.org/Johness/java-cef.git
+	branch = v49
