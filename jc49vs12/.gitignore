@@ -1,0 +1,10 @@
+*
+/jdk8u251/
+!.gitignore
+!readme.md
+!xpcmake.bat
+!xpclean.bat
+!xpcompile.bat
+!xprun.bat
+!xpdist.bat
+
