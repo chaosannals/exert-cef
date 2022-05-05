@@ -1,5 +1,13 @@
 # exert-cef
 
+## git 代理
+
+```bash
+# 在 depot_tools 项目里面设置代理
+git config http.proxy socks5://127.0.0.1:1080
+git config https.proxy socks5://127.0.0.1:1080
+```
+
 ##
 
 2. 下载 [构造工具](https://storage.googleapis.com/chrome-infra/depot_tools.zip) 解压到 depot_tools 里面。
@@ -18,3 +26,7 @@ set DEPOT_TOOLS_WIN_TOOLCHAIN=0
 ```
 
 5. 下载 [构造脚本](https://bitbucket.org/chromiumembedded/cef/raw/master/tools/automate/automate-git.py) automate-git.py
+
+```bash
+python "G:\excef\automate\automate-git.py" --download-dir="G:\excef\chromium_git" --depot-tools-dir="G:\excef\depot_tools" --no-distrib --no-build
+```
